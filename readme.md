@@ -37,17 +37,17 @@ Acesse o site diretamente pelo GitHub Pages:
 
 
 ## 📁 Estrutura do Projeto
-MinimalWear/
-│
-├── assets/
-│ ├── img/ # Imagens da loja
-│ └── css/ # Arquivos de estilo
-│
-├── index.html # Página inicial
-├── produtos.html # Página de produtos
-├── sobre.html # Página sobre
-├── contato.html # Página de contato
-└── README.md # Documentação do projeto
+MinimalWear/<br>
+│<br>
+├── assets/<br>
+│ ├── img/ # Imagens da loja<br>
+│ └── css/ # Arquivos de estilo<br>
+│<br>
+├── index.html # Página inicial<br>
+├── produtos.html # Página de produtos<br>
+├── sobre.html # Página sobre<br>
+├── contato.html # Página de contato<br>
+└── README.md # Documentação do projeto<br>
 
 
 
