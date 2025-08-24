@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Loja Minimal</title>
+  <link rel="stylesheet" href="assets/css/contato.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+
+      <!-- Header / Navbar -->
+  <header class="header">
+    
+    <nav class="navbar">
+    <h1 class="logo">MinimalWear</h1>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <div class="nav__links" id="navbar">
+      <a href="index.html">Home</a>
+      <a href="#colecao">Coleção</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="contato__info">
+        <h3>Outros canais</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123 - São Paulo, SP</p>
+        <p><i class="fas fa-envelope"></i> contato@minimalwear.com</p>
+        <p><i class="fab fa-whatsapp"></i> 
+            <a href="https://wa.me/5511999999999" target="_blank">Fale no WhatsApp</a>
+        </p>
+    </div>
+
+
+    <div class="contato__horarios">
+        <h3>Horário de Atendimento</h3>
+        <p>Segunda a Sexta: 9h às 18h</p>
+        <p>Sábados: 10h às 14h</p>
+        <p>Domingos e feriados: fechado</p>
+    </div>
+
+    <div class="contato-social">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <div class="contato__faq">
+        <h3>Perguntas Frequentes</h3>
+        <details>
+            <summary>Qual o prazo de entrega?</summary>
+            <p>O prazo médio é de 5 a 10 dias úteis, dependendo da região.</p>
+        </details>
+        <details>
+            <summary>Posso trocar um produto?</summary>
+            <p>Sim, você tem até 7 dias corridos para solicitar a troca.</p>
+        </details>
+    </div>
+
+
+    <div class="contato__mapa">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=..." 
+            width="100%" height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+
+    <!-- Contato -->
+  <section id="contato" class="contato">
+    <h2>Fale Conosco</h2>
+    <div class="contato__form">
+        <picture>
+            <img src="assets/img/contato.jpg" alt="">
+        </picture>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+    </div>
+  </section>
+</main>
+  <!-- Footer -->
+ <footer class="footer">
+       <div class="container">
+      <h2>MinimalWear</h2>
+    <div class="links">
+      <a href="Sobre.html">Sobre</a>
+      <a href="Contato.html">Contato</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+    </div>
+    <p>© 2025 MinimalWear - Todos os direitos reservados.</p>
+  </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

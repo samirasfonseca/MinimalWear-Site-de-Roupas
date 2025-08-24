@@ -1,0 +1,149 @@
+/* Seção Calçados */
+.calcados {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #f9f9f9;
+}
+
+.calcados h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.calcados p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 3rem;
+}
+
+.calcado__item:hover {
+  transform: translateY(-5px);
+}
+
+
+.calcado__item h3 {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  color: #000;
+}
+
+.calcado__item span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background 0.3s;
+  margin: auto;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+/* Seção Vestidos */
+.vestidos {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #fff;
+}
+
+.vestidos h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.vestidos p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 3rem;
+}
+
+
+.vestido__item:hover {
+  transform: translateY(-5px);
+}
+
+
+.vestido__item h3 {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  color: #000;
+}
+
+.vestido__item span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+.calcado__item img,
+.vestido__item img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.calcados__grid,
+.vestidos__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* menor min-width */
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.calcado__item,
+.vestido__item {
+  max-width: 250px; /* limita o tamanho máximo */
+}
+/* Responsivo */
+@media (max-width: 768px) {
+  .calcados,
+  .vestidos {
+    padding: 2rem 1rem;
+  }
+
+  .calcados h2,
+  .vestidos h2 {
+    font-size: 2rem;
+  }
+
+  .calcados p,
+  .vestidos p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
+}

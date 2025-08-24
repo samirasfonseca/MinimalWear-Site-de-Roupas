@@ -1,0 +1,143 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #fff;
+  line-height: 1.6;
+}
+
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5%;
+  gap: 2rem;
+  flex-wrap: wrap; /* permite que itens quebrem linha em telas pequenas */
+}
+
+.hero-texto {
+  flex: 1 1 300px; /* ocupa espaço flexível, mínimo de 300px */
+  max-width: 500px;
+}
+
+.hero-texto h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.hero-texto p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.hero-texto a {
+  display: inline-block;
+  font-size: 1.5rem;
+  background-color: #7f4f24;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: #000 2px 2px 8px;
+}
+
+/* Imagem */
+.hero-imagem {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-imagem img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-texto h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-texto p {
+    font-size: 1rem;
+  }
+
+  .hero-texto a {
+    font-size: 1.3rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .hero-imagem img {
+    max-width: 100%;
+  }
+}
+
+/* Coleção */
+.colecao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem 5%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.colecao h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__ring {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: scroll 70s linear infinite;
+}
+
+.item img {
+  width: 30rem;
+  height: 45rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+

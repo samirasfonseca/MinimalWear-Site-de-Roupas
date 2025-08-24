@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Loja Minimal</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header">
+    
+    <nav class="navbar">
+      <h1 class="logo">MinimalWear</h1>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    
+    <div class="nav__links" id="navbar">
+      <a href="index.html">Home</a>
+      <a href="#colecao">Coleção</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-texto">
+      <h1>Estilo Minimalista</h1>
+      <p>Peças exclusivas que combinam conforto, elegância e simplicidade, criando um estilo atemporal e sofisticado para o seu dia a dia.</p>
+      <a href="#colecao" class="btn">Ver Coleção</a>
+    </div>
+    <div class="hero-imagem">
+      <img src="assets/img/banner.png" alt="Coleção Minimalista">
+    </div>
+  </section>
+
+  <!-- Coleção -->
+  <section class="colecao" id="colecao">
+  <h2>Coleção</h2>
+  <div class="container">
+    <div class="container__ring">
+      <!-- Primeiro bloco -->
+      <div class="item">
+        <img src="assets/img/Camisa.jpg" alt="Camisa Minimal">
+        <h3>Camisa Minimal</h3>
+        <p>R$ 149,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/Calça Slim.jpg" alt="Calça Slim">
+        <h3>Calça Slim</h3>
+        <p>R$ 199,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/blazer.jpg" alt="Blazer Clean">
+        <h3>Blazer Clean</h3>
+        <p>R$ 299,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/regata.jpg" alt="Blazer Clean">
+        <h3>Blazer Clean</h3>
+        <p>R$ 299,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/chapeu.jpg" alt="Chapeu">
+        <h3>Chapeu</h3>
+        <p>R$ 110,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/sobretudo.jpg" alt="Sobretudo">
+        <h3>Sobretudo</h3>
+        <p>R$ 239,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/conjunto.jpg" alt="Conjunto">
+        <h3>Conjunto</h3>
+        <p>R$ 159,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/meia calça.jpg" alt="Meia Calça">
+        <h3>Meia Calça</h3>
+        <p>R$ 59,90</p>
+      </div>
+
+      <!-- Duplicado para loop infinito -->
+      <div class="item">
+        <img src="assets/img/Camisa.jpg" alt="Camisa Minimal">
+        <h3>Camisa Minimal</h3>
+        <p>R$ 149,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/Calça Slim.jpg" alt="Calça Slim">
+        <h3>Calça Slim</h3>
+        <p>R$ 199,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/blazer.jpg" alt="Blazer Clean">
+        <h3>Blazer Clean</h3>
+        <p>R$ 299,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/chapeu.jpg" alt="Chapeu">
+        <h3>Chapeu</h3>
+        <p>R$ 110,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/sobretudo.jpg" alt="Sobretudo">
+        <h3>Sobretudo</h3>
+        <p>R$ 239,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/conjunto.jpg" alt="Conjunto">
+        <h3>Conjunto</h3>
+        <p>R$ 159,90</p>
+      </div>
+      <div class="item">
+        <img src="assets/img/meia calça.jpg" alt="Meia Calça">
+        <h3>Meia Calça</h3>
+        <p>R$ 59,90</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+ <footer class="footer">
+       <div class="container">
+      <h2>MinimalWear</h2>
+    <div class="links">
+      <a href="Sobre.html">Sobre</a>
+      <a href="Contato.html">Contato</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+    </div>
+    <p>© 2025 MinimalWear - Todos os direitos reservados.</p>
+  </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
