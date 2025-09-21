@@ -132,8 +132,33 @@ body {
 .contato input,
 .contato textarea,
 .contato button {
-  width: 100%; /* ocupa toda largura do form */
+  width: 100%;
   max-width: 100%;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+}
+
+
+.contato textarea {
+  height: 4rem;
+}
+
+.contato button {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.658);
+  transition: transform 0.3s ease;
+}
+
+.contato button:hover {
+  box-shadow: 0 4px 10px rgba(12, 12, 12, 0.658);
+  transform: translateY(-5px);
+  background-color: #a54d00;
+  border: #6e3e07 solid 1px;
+}
+
+.contato input:focus,
+.contato textarea:focus{
+  border: #e64900 solid 3px;
 }
 
 /* Responsivo */
