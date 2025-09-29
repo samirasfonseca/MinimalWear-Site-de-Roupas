@@ -7,20 +7,25 @@
 ---
 
 ## 🌟 Sobre o Projeto
+
 **MinimalWear** é um site de moda minimalista que combina **elegância, conforto e simplicidade**.  
+
 O layout é moderno, responsivo e pensado para oferecer a melhor experiência ao usuário.  
 
-✨ **Destaques do projeto:**
+---
+
+## ✨ **Destaques do projeto:**
+
 - Coleção de roupas, calçados e bolsas 👗👟👜  
 - Formulário de contato interativo ✉️  
-- Modo cozinha de produtos (passo a passo da coleção) 🛒  
-- Design aconchegante com cores quentes e ícones sociais 🔗  
+- Design Minimalista com cores Pastéis 🔗  
 
-![MinimalWear Screenshot](https://raw.githubusercontent.com/samirasfonseca/MinimalWear-Site-de-Roupas/main/assets/img/banner.png)
+![MinimalWear Screenshot](./assets/img/site%20minimal.png)
 
 ---
 
 ## 🎨 Tecnologias Utilizadas
+
 - **HTML5**  
 - **CSS3**  
 - **JavaScript**  
@@ -28,15 +33,15 @@ O layout é moderno, responsivo e pensado para oferecer a melhor experiência ao
 ---
 
 ## 🚀 Demo Online
+
 Acesse o site diretamente pelo GitHub Pages:  
+
 [🌐 MinimalWear - GitHub Pages](https://samirasfonseca.github.io/MinimalWear-Site-de-Roupas/)
 
 ---
 
 ## 📁 Estrutura do Projeto
 
-
-## 📁 Estrutura do Projeto
 MinimalWear/<br>
 │<br>
 ├── assets/<br>
@@ -50,11 +55,12 @@ MinimalWear/<br>
 └── README.md # Documentação do projeto<br>
 
 
-
 ---
 
 ## 🤝 Autor
+
 **Samira Santos da Fonseca**  
+
 [GitHub](https://github.com/samirasfonseca)  
 
 ---
